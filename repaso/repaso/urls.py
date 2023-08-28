@@ -21,5 +21,6 @@ from repaso.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/', saludo),
-
+    path('dia_de_hoy/', dia_de_hoy),
+    path('mi_nombre_es/<nombre>', mi_nombre_es),
 ]
