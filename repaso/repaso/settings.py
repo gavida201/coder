@@ -54,7 +54,7 @@ ROOT_URLCONF = 'repaso.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/'C:/Users/Usuario/Desktop/prentrega3/repaso/repaso/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

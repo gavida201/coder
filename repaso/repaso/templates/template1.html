@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="color:red"> mi nombre es {{nombre}} </p>
+    <p style="color:green"> mi apellido es {{apellido}} </p>
+    <p> el template fue creado el dia {{hoy}} </p>
+    <h1> Lista de notas coloreada segun valor</h1>
+    <p> 
+        {% for n in lista_notas %}
+            {% if n < 6 %}
+                <li style="color:red"> NOTA MALA {{n}} </p>
+            {% else %}
+                <li style="color:green"> Nota Buena {{n}} </p>
+            {% endif %} 
+        <br>              
+        {% endfor %}
+    </p>
+
+    
+</body>
+</html>
